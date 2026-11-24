@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories | The Universe of Dharani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gallery-page">
+    <div id="glitter-container" aria-hidden="true"></div>
+    <div class="gallery-magic" aria-hidden="true">
+        <span class="gallery-heart gallery-heart-one">♥</span>
+        <span class="gallery-heart gallery-heart-two">♥</span>
+        <span class="gallery-heart gallery-heart-three">♥</span>
+        <span class="gallery-heart gallery-heart-four">♥</span>
+        <span class="gallery-heart gallery-heart-five">♥</span>
+        <span class="gallery-heart gallery-heart-six">♥</span>
+        <span class="gallery-sparkle gallery-sparkle-one">✦</span>
+        <span class="gallery-sparkle gallery-sparkle-two">✧</span>
+        <span class="gallery-sparkle gallery-sparkle-three">✦</span>
+    </div>
+
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="logo">✦ The Universe</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="appreciation.html">Appreciation</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="letter.html">Letters</a>
+            <a href="celebration.html">Celebration</a>
+        </div>
+    </nav>
+
+    <main class="gallery-main">
+        <header class="gallery-heading">
+            <p class="welcome">♥ FAMILY, LOVE & LITTLE MOMENTS ♥</p>
+            <h1>Family Moments to <span>Treasure</span></h1>
+            <p>The sweetest memories are the ones shared with family — little smiles, special days, and all the moments in between.</p>
+        </header>
+
+        <section class="photo-gallery" aria-label="Family photo gallery">
+            <button class="gallery-photo solo-photo" type="button"
+                    data-caption="Dharani Ma'am sharing a sweet moment with a little one.">
+                <img src="img1.jpeg"
+                     alt="Dharani Ma'am holding a young child">
+                <span class="photo-caption"><span>01</span> A precious moment together</span>
+                <span class="zoom-hint" aria-hidden="true">＋ View memory</span>
+            </button>
+
+            <button class="gallery-photo family-photo" type="button"
+                    data-caption="A happy family day spent together outdoors.">
+                <img src="img2.jpeg"
+                     alt="Dharani Ma'am sitting outdoors with her family">
+                <span class="photo-caption"><span>02</span> A day with the whole family</span>
+                <span class="zoom-hint" aria-hidden="true">＋ View memory</span>
+            </button>
+
+            <div class="memory-grid" aria-label="More family memories">
+                <button class="gallery-photo memory-photo" type="button"
+                        data-caption="A precious family moment on a special day.">
+                    <img src="img3.jpeg" alt="Dharani Ma'am, her partner, and their young child dressed for a special occasion">
+                    <span class="photo-caption"><span>03</span> Dressed up for a special day</span>
+                    <span class="zoom-hint" aria-hidden="true">＋</span>
+                </button>
+                <button class="gallery-photo memory-photo" type="button"
+                        data-caption="Fresh air, little smiles, and time together as a family.">
+                    <img src="img4.jpeg" alt="Dharani Ma'am and her partner outdoors with their young child">
+                    <span class="photo-caption"><span>04</span> A little family time outdoors</span>
+                    <span class="zoom-hint" aria-hidden="true">＋</span>
+                </button>
+                <button class="gallery-photo memory-photo" type="button"
+                        data-caption="A close-up of the family, sharing a happy moment.">
+                    <img src="img5.jpeg" alt="Dharani Ma'am and her partner smiling with their baby">
+                    <span class="photo-caption"><span>05</span> Smiles all around</span>
+                    <span class="zoom-hint" aria-hidden="true">＋</span>
+                </button>
+                <button class="gallery-photo memory-photo" type="button"
+                        data-caption="A tiny smile surrounded by family love.">
+                    <img src="img6.jpeg" alt="Dharani Ma'am and her partner cuddling their baby for a family selfie">
+                    <span class="photo-caption"><span>06</span> Little one, lots of love</span>
+                    <span class="zoom-hint" aria-hidden="true">＋</span>
+                </button>
+            </div>
+        </section>
+
+        <div class="gallery-to-letter">
+            <a href="letter.html" class="magic-button">
+                Continue to Your Letter <span>♥</span>
+            </a>
+        </div>
+
+        <section class="personal-letter" aria-labelledby="letter-heading">
+            <p class="welcome">♥ A NOTE FOR YOU ♥</p>
+            <h2 id="letter-heading">Dear Dharani Ma’am,</h2>
+            <div class="letter-decoration" aria-hidden="true">❦</div>
+            <p>
+                On your special day, we want you to know how deeply appreciated
+                and loved you are. Your kindness, warmth, and the happiness you
+                bring to those around you make every moment brighter.
+            </p>
+            <p>
+                May this new year of life bring you the same joy and love that
+                you so generously give to everyone. We hope these little memories
+                remind you of all the beautiful moments you have shared and all
+                the people who are grateful to have you in their lives.
+            </p>
+            <p class="letter-signoff">With all our love,<br><span>Your family</span></p>
+        </section>
+    </main>
+
+    <div class="photo-lightbox" id="photo-lightbox" role="dialog"
+         aria-modal="true" aria-label="Enlarged photo" hidden>
+        <button class="lightbox-close" type="button" aria-label="Close enlarged photo">×</button>
+        <figure>
+            <img class="lightbox-image" src="" alt="">
+            <figcaption class="lightbox-caption"></figcaption>
+        </figure>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
